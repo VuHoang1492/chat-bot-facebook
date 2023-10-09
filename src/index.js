@@ -17,7 +17,10 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.static(path.join(__dirname, 'public')))
 
 
+
 app.use('/home', (req, res) => {
+    console.log("ips : ", req.ips);
+    console.log("ip : ", req.ip);
     res.send('home')
 })
 
