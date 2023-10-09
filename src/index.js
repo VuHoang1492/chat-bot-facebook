@@ -4,7 +4,7 @@ const path = require('path')
 require('dotenv').config()
 
 
-const facebookRoute = require('./src/route/facebook_route.js')
+const facebookRoute = require('./route/facebook_route.js')
 
 
 
