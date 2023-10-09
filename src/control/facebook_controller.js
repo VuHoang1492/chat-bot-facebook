@@ -1,4 +1,4 @@
-const facebookService = require("../service/facebook_service")
+const facebookService = require("../service/facebook_service.js")
 
 const getWebHookEvent = (req, res) => {
     let body = req.body;
