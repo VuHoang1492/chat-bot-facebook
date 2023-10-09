@@ -17,6 +17,9 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.static(path.join(__dirname, 'public')))
 
 
+app.use('/home', (req, res) => {
+    res.send('home')
+})
 
 app.use('/', facebookRoute)
 
