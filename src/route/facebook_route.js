@@ -1,4 +1,4 @@
-const facebookController = require("../control/facebook_controller.js")
+const facebookController = require("../../control/facebook_controller.js")
 const express = require("express")
 
 
